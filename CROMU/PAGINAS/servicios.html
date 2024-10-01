@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cromu - Servicios</title>
+    <link rel="stylesheet" href="/CROMU/ESTILOS/style.css">
+    <link rel="stylesheet" href="/CROMU/ESTILOS/modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="/CROMU/JAVA/script.js" defer></script>
+    <script src="/CROMU/JAVA/ampliar.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>CROMU</p>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <div class="menu-icon"></div>
+            </div>
+            <ul class="mobile-menu">
+                <li class="close-btn">&times;</li>
+                <li><a href="/index.html"><span>Inicio</span></a></li>
+                <li><a href="/CROMU/PAGINAS/servicios.html"><span>Servicios</span></a></li>
+                <li><a href="#"><span>Acerca de</span></a></li>
+                <li><a href="#"><span>Contacto</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-container">
+                <div class="servicio">
+                    <h3>Intereses</h3>
+                    <p>Ofrecemos intereses competitivos en tus depósitos y préstamos.</p>
+                    <button class="open-modal" data-modal="modal1">Leer más</button>
+                </div>
+                <div class="servicio">
+                    <h3>Compra de Cartera</h3>
+                    <p>Compra y venta de carteras de inversión.</p>
+                    <button class="open-modal" data-modal="modal2">Leer más</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modales -->
+        <div class="modal" id="modal1">
+            <div class="modal-content">
+                <span class="close-modal" data-modal="modal1">&times;</span>
+                <h3>Intereses</h3>
+                <p>Ofrecemos intereses competitivos en tus depósitos y préstamos. Nuestros expertos financieros te ayudarán a encontrar la mejor opción para tus necesidades.</p>
+                <ul>
+                    <li>Tasas de interés competitivas</li>
+                    <li>Depósitos y préstamos personalizados</li>
+                    <li>Asesoramiento financiero experto</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modal" id="modal2">
+            <div class="modal-content">
+                <span class="close-modal" data-modal="modal2">&times;</span>
+                <h3>Compra de Cartera</h3>
+                <p>Compra y venta de carteras de inversión. Nuestros expertos te ayudarán a encontrar la mejor opción para tus necesidades de inversión.</p>
+                <ul>
+                    <li>Compra y venta de carteras</li>
+                    <li>Asesoramiento en inversión</li>
+                    <li>Acceso a una amplia gama de instrumentos financieros</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cromu. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
